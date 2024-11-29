@@ -1,0 +1,59 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+.h{
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 40px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.form input{
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form button{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    
+}
+
+.h h1{
+    padding-bottom: 20px;
+}
+.contain {
+    margin-bottom: 60px;
+}
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+.footer p {
+	margin-top: 10px;
+	font-size: 14px;
+    color: #fff;
+}
+.footer p a {
+    color: #fff;
+}
+.publish {
+    margin-top: 10px;
+}
+
+.container .postBody {
+    display: inline;
+}

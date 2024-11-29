@@ -1,0 +1,11 @@
+<%-include("partials/header.ejs")  %>
+<div class="h">
+    <h1>Update</h1>
+    <form class="form" action="/up" method="POST">
+        <input type="text" id="t" name="title" placeholder="Title"><br>
+        <input type="text" id="c" name="content" placeholder="Updated Content"><br>
+        <button class="btn btn-primary rounded-pill px-3" type="submit" >Update</button>
+    </form>
+</div>
+    
+<%-include("partials/footer.ejs")  %>

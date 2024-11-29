@@ -1,0 +1,11 @@
+<%-include("partials/header.ejs")  %>
+<div class="h">
+    <h1>Compose</h1>
+    <form class="form" action="/submit" method="POST">
+        <input type="text" id="t" name="title" placeholder="Title"><br>
+        <input type="text" id="c" name="content" placeholder="Content"><br>
+        <button class="btn btn-primary rounded-pill px-3" type="submit" >POST</button>
+    </form>
+</div>
+    
+<%-include("partials/footer.ejs")  %>

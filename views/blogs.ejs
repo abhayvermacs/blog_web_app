@@ -1,0 +1,19 @@
+<%-include("partials/header.ejs")  %>
+<div class="h">
+    <h1>Blogs</h1>    
+
+    <% if(locals.heading && locals.blog) {%>
+    <%for(let i = 0; i<heading.length; i++){%>
+        <h4>
+            <li>
+                <%= heading[i] %>
+            </li>
+        </h4>
+        <ul>
+            <p><%= blog[i] %></p>
+        </ul>
+        <% } } else{ %>
+        <h4>Be first to write a blog.</h4>
+        <% } %>    
+</div>
+<%-include("partials/footer.ejs")  %>
